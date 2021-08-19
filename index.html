@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Seo Geral-->
+    <meta name="description" content="Programador Web em São Paulo">
+    <meta name="keywords" content="programador, portfolio, backend, frontend, asp.net, nodejs, react, javascript">
+    <meta name="author" content="Marilaine Caetano">
+
+    <!--Favicon png  -->
+    <link rel="icon" href="images/logo2.png" />
+
+    <!-- CSS Personalizado -->
+    <link href="./css/style.css" type ="text/css" rel="stylesheet"/>
+
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,600&display=swap" rel="stylesheet"> 
+   
+    <script src="https://kit.fontawesome.com/5a619cc939.js"></script>
+
+
+    <title> Ricardo Vieira de Souza | Desenvolvedor </title>
+</head>
+<body>
+    <!-- Header -->
+   
+    <header>
+        <div class="container flex-box">
+            <a href="#">
+              <!--local e caminho da imagem do logo do home-->
+              <img src="images/logo.png" alt="Logo" title="Logo"/>
+            </a>
+
+            <!--Menu Mobile-->
+            <input id="menu-hamburguer" type="checkbox" data-js="btn_menu_nav">
+            <label for="menu-hamburguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+
+            <div class="nav">
+                <ul >
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='#sobre'>Sobre</a></li>
+                    <li><a href='#contato'>Contato</a></li>
+                </ul>
+            </div>
+            <!--End Menu Mobile-->
+
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a> </li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato"><li>Contato</a></li>
+                    <!-- <a href="#"><li>BLOG</li></a> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+     <!--Conteúdo  -->
+
+    <main>
+     <!--Intro  -->
+     <section id="intro">
+         <span class="row"> Ricardo   </span>
+         <span class="row"> Desenvolvedor </span>
+         <a href="#skills" class="scroll-down-page" >
+            <span class="scroll-down-icon"> <i class="fas fa-angle-down fa-2x scroll-down-icon" ></i> </span>
+         </a>
+
+     </section>
+     
+     <!-- Sobre  -->
+     <section id="sobre" class="container" >
+        <img src="images/photo.jpg" title="Mari Santos"/>
+        <h1>Olá, bem-vindo.</h1>
+        <p>Meu nome é Ricardo Souza, sou apaixonado por tencologia, graduado em Rede de computadores pela faculdade Uninove.</p>
+        <p>Venho estudando tecnologias  web, especialmente  aquelas construídas com JavaScript, NodeJS e React.</p>
+        <p>Venho adquirindo conhecimentos de forma autodidata, através de cursos online, livros, sites e da comunidade.</p>
+        <p>Estou sempre em busca de novos desafios, gosto de aprender coisas novas e de estar constantemente sendo desafiado.</p>
+    </section>
+    
+    <!--Habilidades(Skills)  -->
+    <section id="skills" class="container flex-box">
+        <h1 class="flex-basis-grow">Skills</h1>
+          
+        <!--Front-end  -->
+        <div class="skill-item">
+            <i class="fas fa-laptop-code fa-3x"></i>
+            <h3>Front-end</h3>
+            <ul>
+                <li> HTML 5 </li>
+                <li> CSS 3  </li>
+                <li> Javascript </li>
+            </ul>
+        </div>
+        
+        <!--Back-end  -->
+        <div class="skill-item">
+            <i class="fas fa-cogs fa-3x"></i>
+            <h3>Back-end</h3>
+            <ul>
+                <li>NodeJS</li>
+                <li>Express</li>
+                <li>API Restfull</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                
+            </ul>
+        </div>
+        
+        <!--Idiomas -->
+        <div class="skill-item idiomas">
+           <i class="fas fa-globe-americas fa-3x"></i>
+            <h3>Inglês</h3>
+            <ul class="ul-idiomas">
+                <li>Leitura: &nbsp;<img class="star" title="Intermediário"  alt="Básico" src="images/star-fill.png"/>
+                <img class="star" title="Intermediário" alt="Intermediário" src="images/star-fill.png"/>
+                <img class="star" title="Avançado" alt="Avançado" src="images/star.png"/>
+               <img class="star" title="Fluente" alt="Fluente" src="images/star.png"/></li>
+
+            </ul> 
+            <ul class="ul-idiomas">
+                <li>Escrita: &nbsp;<img class="star" title="Básico" alt="Básico" src="images/star-fill.png"/>
+                <img class="star" title="Intermediário" alt="Intermediário" src="images/star.png"/>
+                <img class="star" title="Avançado" alt="Avançado" src="images/star.png"/>
+                <img class="star" title="Fluente" alt="Fluente" src="images/star.png"/></li>
+            </ul> 
+
+            <ul class="ul-idiomas">
+                <li>Conversação: &nbsp;<img class="star" title="Básico" alt="Básico" src="images/star-fill.png"/>
+                <img class="star" title="Intermediário" alt="Intermediário" src="images/star.png"/>
+                <img class="star" title="Avançado" alt="Avançado" src="images/star.png"/>
+                <img class="star" title="Fluente" alt="Fluente" src="images/star.png"/></li>
+            </ul> 
+        </div>
+    
+        <!--Aprendendo -->
+        <div class="skill-item">
+            <i class="fas fa-book-reader fa-3x"></i>
+            <h3>Aprendendo</h3>
+            <ul>
+                <li>React</li>
+                <li>React Native</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!--Formação Acadêmica -->
+    <section id="formacao" class="container">
+        <h1 class="flex-basis-grow">Formação Acadêmica</h1>
+
+        <div class="form-item">
+                <i class="fas fa-school fa-3x"></i>
+                <h2>Graduação</h2>
+                <h3>Redes de computadores </h3> 
+                <h4>Faculdade Uninove</h4>
+                <i>2017 à 2019</i>
+
+               
+        </div>
+                
+        <div class="form-item">
+            <i class="fas fa-user-graduate fa-3x"></i>  
+            <h2>Pós graduação lato sensu</h2>              
+            <h3>Desenvolvimento Web Full Stack</h3>
+            <h4>PUC Minas</h4>
+            <i> 2020 à 2021 </i>
+
+        
+        </div>
+    </section>
+    
+  
+           
+     
+        
+    <!--Contato -->
+    <section id="contato">
+        <div class="container flex-box">
+            <h1 class="flex-basis-grow">Entre em contato</h1>
+
+            <div class="contato-item ">
+                <p>Sinta-se a vontade para entrar em contato comigo enviando um email ou através das minhas redes sociais.
+                     Se você tiver dúvidas ou comentários, terei prazer em responder! </p>
+                     <div class="coloredLine"></div>
+
+                
+            </div>
+
+            <div class="contato-item flex-box">
+
+                <div>
+                   <ul class="social">
+                        <li> <a href="https://www.linkedin.com/in/ricardo-souza-0864a3139/" target="__blank"> <i class="fab fa-linkedin-in fa-lg"></i>
+                        </a> </li>
+                        
+                    </ul>
+                    <h4>Redes Sociais</h4>
+                </div>
+                <div>
+                    
+                    <a href="https://github.com/ricardosouza-tech" target="__blank" >  <i class="fab fa-github  fa-lg"></i>
+                        </a>
+                    <h4> Github </h4>
+                </div>
+
+                <div>
+                    <address> 
+                        <i class="far fa-envelope fa-lg"></i> 
+                            <h4> Email</h4>
+                                ricardo@servidorcasa.com.br
+                    </address>
+                </div>
+
+                <div>
+                    <address>
+                       <i class="fas fa-mobile-alt fa-lg"></i>
+                        <h4>Telefone</h4>
+                            (11) 97192&nbsp;4243
+                    </address>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <!--Rodapé -->
+    <footer>
+        <div class=" item-foo text">
+            Feito  por Ricardo Souza <!--| <a href="copyright.html">Créditos do Site</a> --> 
+        </div>
+    </footer>
+    
+        <div align=center><a href='https://contador.s12.com.br'>
+            <img src='https://contador.s12.com.br/img-Badww996wA4D8062-17.gif' border='1' alt='contador gratuito de visitas'></a>
+            <h5>Visitas</h5>
+            <script type='text/javascript' src='https://contador.s12.com.br/ad.js?id=Badww996wA4D8062'>
+            </script><br><a href='https://www.hospedagemasp.com.br/' target='_blank'>
+            <img src='https://img.hospedagemasp.com.br/selo-asp.gif' alt='hospedagem de site asp' border='0'>
+        </a></div>
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>
