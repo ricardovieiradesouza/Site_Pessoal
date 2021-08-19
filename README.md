@@ -1,8 +1,6 @@
 Ricardo Vieira de souza
 
 
-![image](https://user-images.githubusercontent.com/48540103/129995200-a82d9578-34b9-4cb1-8eea-527d522fe4b6.png)
-
 
 ![image](https://user-images.githubusercontent.com/48540103/129995241-1a8b1b8d-79f9-49b4-8532-88b8858f9221.png)
 
